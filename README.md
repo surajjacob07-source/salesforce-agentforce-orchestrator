@@ -2,6 +2,8 @@
 
 A portfolio-safe overview of an Agentforce implementation on Salesforce CRM designed to coordinate multiple specialized agents across revenue operations, account governance, and predictive decision support.
 
+![Agentforce architecture](assets/agentforce-architecture.svg)
+
 ## What this project is about
 This repository documents a practical enterprise AI orchestration pattern: an orchestrator agent coordinating multiple task-specific agents to convert fragmented business workflows into structured, autonomous actions while preserving controls around profitability and compliance.
 
@@ -80,8 +82,14 @@ This project demonstrates:
 ## Portfolio-safe notes
 This repo intentionally avoids confidential business logic, internal data, and proprietary implementation details. It is meant to showcase architecture, product thinking, and real-world applied AI design.
 
+## Recruiter-friendly reading path
+- `README.md` — quick overview and architecture summary
+- `docs/case-study.md` — business problem, product decisions, and impact framing
+- `docs/prd.md` — product requirements and KPI view
+- `docs/architecture.md` — deeper design notes
+- `docs/use-cases.md` — representative workflows
+
 ## Possible next additions
-- architecture diagrams
 - sample workflow specs
 - pseudo-PRDs for each agent
 - evaluation metrics for agent quality and business impact
